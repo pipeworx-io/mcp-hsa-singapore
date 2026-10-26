@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-hsa-singapore",
-  "version": "0.1.0",
-  "description": "Singapore HSA registered therapeutic products — the Health Sciences",
+  "version": "0.1.1",
+  "description": "Singapore HSA registered therapeutic products — the Health Sciences Authority's official 'Listing of Registered Therapeutic Products' (~5,500 products), sourced live from data.gov.sg. Auth: none.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-bb6c9673c9fe0955ca7deb1a5a2511d754cef17ea722592776600b6ee3f22a82",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "sourceHash": "v1-6b2b09fd59a3f80944f304cff74f0fd7bb40f86c57c07fe08f782708857f8994",
+    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
   }
 }

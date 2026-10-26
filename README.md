@@ -2,7 +2,7 @@
 
 Medicines registered in Singapore — the Health Sciences Authority (HSA) official Listing of Registered Therapeutic Products (~5,500 products), live from data.gov.sg: SIN licence number, product name, licence holder, approval date, forensic classification, ATC code, dosage form, route, manufacturers, country of manufacture, active ingredients with strengths. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1684+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1881+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -79,7 +79,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1684+ data sources. The
+Both URLs reach the same gateway and the same 1881+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
