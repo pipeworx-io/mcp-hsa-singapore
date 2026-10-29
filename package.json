@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-hsa-singapore",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Singapore HSA registered therapeutic products — the Health Sciences Authority's official 'Listing of Registered Therapeutic Products' (~5,500 products), sourced live from data.gov.sg. Auth: none.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-hsa-singapore": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "hsa-singapore"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-hsa-singapore.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/hsa-singapore",
   "pipeworx": {
-    "sourceHash": "v1-6b2b09fd59a3f80944f304cff74f0fd7bb40f86c57c07fe08f782708857f8994",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "hsa-singapore",
+    "gatewaySlug": "hsa-singapore",
+    "sourceHash": "v1-dbee11570876c110586ea287a4af9dcb8b6018378863742b4f5161c5b6238523",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
